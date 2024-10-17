@@ -1,0 +1,218 @@
+\documentclass[15pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{layout}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18,width=10cm}
+
+\usepackage[a4paper]{geometry}
+\usepackage[english]{babel}
+% \usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Suhas. P. K}
+\lhead{Classical electrical conductivity}
+\rfoot{Page \thepage}
+\renewcommand*\footnoterule{}
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+\usepackage{physics}
+\usepackage{amsmath,amsfonts}
+\usepackage{amssymb}
+
+%\usepackage{gfsneohellenicot}  % for font
+\usepackage{concmath}
+\usepackage[OT1]{fontenc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\huge{\underline{\scshape{Classical Electrical Conductivity}}}}
+
+\author{\Large{\scshape{Suhas. P. K}},\\ Department of Physics,\\ AMC Engineering College, \\ Bangalore 560083}
+\date{}
+
+
+
+\begin{document}
+
+\maketitle
+\hrule \relax
+
+\large{\tableofcontents}
+
+
+\newpage
+\section*{\textbf{Introduction}}
+    \addcontentsline{toc}{section}{Introduction}
+
+A valence electron is an electron that is associated with an atom, and that can participate in formation of a chemical bond. Depending on whether the outer shell is closed or not, we can come to conclusion that the atom can make bond with other atoms or not.
+\\
+A valence electron has the ability to absorb or release energy in the form of a \textbf{photon}.
+\vspace{0.2cm}
+
+An energy gain trigger the electron to move (jump) to an outer shell; this is known as atomic excitation. Or the electron can even break free from its associated atom's shell; this is ionization to form a positive ion. When an electron loses energy (thereby causing a photon to be emitted), then it can move to an inner shell which is not fully occupied. 
+\vspace{0.2cm}
+
+The valence electrons also responsible for the thermal, electrical, optical, magnetic properties of solids. Many electron theories are proposed to explain the above properties in addition to the thermionic effect, photoelectric effect, properties of conductors, semiconductors, and insulators.
+\\
+Three electron theories of metal are applicable to all solids, both metals and non-metals. 
+\begin{enumerate}
+    \item Classical free theory by Drude and Lorentz (1900), according to which, the metals containing free electron obey the laws of classical mechanics.
+    \item Quantum free electron theory by Arnold Sommerfeld (1928), according to which, free electrons obey quantum laws.
+    \item Zone theory by Bloch, also known as band theory of solids (1928), according to which, the free electrons move in a periodic field produced by the lattice.
+\end{enumerate}
+
+Metallic elements generally have high electrical conductivity when in the solid state. In each row of the periodic table, the metals occur to the left of the nonmetals, and thus a metal has fewer possible valence electrons than a nonmetal. However, a valence electron of a metal atom has a small ionization energy, and in the solid-state this valence electron is relatively free to leave one atom in order to associate with another nearby. Such a “free” electron can be moved under the influence of an electric field, and its motion constitutes an electric current; it is responsible for the electrical conductivity of the metal. Ex: Copper, aluminum, silver, gold, etc.
+\vspace{0.2cm}
+
+A nonmetallic element has low electrical conductivity; it acts as an insulator. Such an element is found toward the right of the periodic table. Its ionization energy is large; an electron cannot leave an atom easily when an electric field is applied, and thus such an element can conduct only very small electric currents. Ex: sulfur and diamond [examples of solid elemental insulators].
+\vspace{0.2cm}
+
+A semiconductor has an electrical conductivity that is intermediate between that of a metal and that of a nonmetal; a semiconductor also differs from a metal in that a semiconductor's conductivity increases with temperature. The typical elemental semiconductors are silicon and germanium, each atom of which has four valence electrons. The properties of semiconductors are best explained using band theory, as a consequence of a small energy gap between a valence band (which contains the valence electrons at absolute zero) and a conduction band (to which valence electrons are excited by thermal energy). 
+
+% \newpage
+\section*{Properties of metals}
+    \addcontentsline{toc}{section}{Properties of metals}
+
+
+The general properties of metals:
+\begin{enumerate}
+    \item Metals are malleable and ductile.
+    \item Metals are good conductors of heat and electricity.
+    \item Metals are lustrous and can be polished.
+    \item Metals as solids at room temperature.
+    \item The melting and boiling points of metals are generally high.
+    \item Some metals are hard (iron) and some are soft (sodium).
+    \item Metals exhibit photoelectric effect upon incidence of radiation of suitable frequency.
+\end{enumerate}
+Specific properties of metals \footnotemark{}:
+\begin{enumerate}
+    \item All metal obey ohm's law.
+    \item Metals have high thermal conductivity and electrical conductivity.
+    \item Metals exhibit positive temperature coefficient of resistance.
+    \item At room temperature, resistivity is proportional to absolute temperature ($T$),
+        \begin{equation*}
+            \rho \propto T
+        \end{equation*}
+    \item For most metals, resistivity is inversely proportional to the pressure,
+        \begin{equation*}
+            \rho \propto \frac{1}{P}
+        \end{equation*}
+    \item At low temperature, resistance of a metal is directly proportional to the fifth power of its absolute temperature ($T$),
+        \begin{equation*}
+            \rho \propto T^{5}
+        \end{equation*}
+
+    \footnotetext{Do study these properties carefully and make sure the \textbf{Introduction} is understood for further reading.}
+
+     \item  The ratio of thermal conductivity to the electrical conductivity is directly proportional to the absolute temperature,
+        \begin{equation*}
+            \frac{K}{\sigma} \propto T
+        \end{equation*}
+    \item At low temperature, the resistivity of certain metals suddenly becomes zero .i.e., they exhibit the phenomenon of superconductivity.
+    \item The conductivity of metals varies in the presence of magnetic field. This phenomenon is called magneto resistance.
+      
+\end{enumerate}
+
+
+% \newpage
+\section*{Concept of free electron}
+    \addcontentsline{toc}{section}{Concept of free electron}
+
+The outstanding properties of metals are due to the valence electrons. In metals, atoms are arranged in periodic manner and are very close to each other.
+\vspace{0.2cm}
+
+Due to the overlapping, the valence electrons from one atom can easily go to the neighboring atoms. In the same way, the valence electrons of an atom from one corner of the metal can go to an atom at the other corner of the slab easily. The valence electrons of all the atoms will be roaming throughout the metal lattice. One cannot find, to which atom the electron really belong to.
+\vspace{0.2cm}
+
+As the valence electrons are totally detached from the atoms, the atoms become positively charged ions. Hence, the entire metal slab consists of positively charged ion core (lattice) in the sea of free electrons. The sea of free electrons is held in the metal slab by the electrostatic force of attraction of the positive ion core.
+\vspace{0.2cm}
+
+These free electrons move randomly in the metal crystal like gas molecules in the container, hence the free electrons are sometimes called \textit{electron gas}. This electron gas is responsible for the electrical and thermal conductivity of the metal.
+
+\newpage
+\section*{Classical free electron theory}
+    \addcontentsline{toc}{section}{Classical free electron theory}
+This theory was proposed by Paul Drude and H.A. Lorentz in 1900 to explain the properties of metals by mainly assuming that, valance electrons are free in metals. This theory is based upon the following assumptions. The free electrons move in a periodic field provided by the lattice ions.
+\begin{enumerate}
+    \item The free electrons of a metal behave like molecules of a gas in a container.
+    \item The free electrons move in all directions with all possible velocities. The resultant velocity in any direction is zero.
+    \item The free electrons obey the laws of kinetic theory of gases. In the absence of electric field, the kinetic energy associated with each electron at temperature $T$ is given by,
+        \begin{equation*}
+            \frac{3}{2}kT = \frac{1}{2}m V_{th}^{2}\hspace{1.2cm} where, V_{th} = \text{Thermal velocity of electrons.}
+        \end{equation*}
+    \item The electric potential due to the ionic cores is considered to be a constant throughout the body of the metal.
+    \item The electron-ion core attraction and electron-electron repulsion in negligible.
+    \item The electric current in a metal due to an applied field is a consequence of drift velocity ($V_{d}$) which is in a direction opposite to the direction of field. 
+\end{enumerate}
+    
+
+\section*{Expression for density of states for electron}
+    \addcontentsline{toc}{section}{Expression for density of states for electron}
+Consider a conductor of length $l$ and area of cross-section $A$, connected to a battery of potential difference $V$. As a result, an electric field $E$ is set up in the conductor, which exerts a force ($-eE$) and accelerate the electrons in a direction opposite to the direction of electric field.
+\\
+According to Newton's second law, we have 
+    \begin{equation*}
+        F = ma = -eE
+    \end{equation*}
+    \begin{equation*}
+        \therefore \hspace{0.2cm} a = \frac{-eE}{m}
+    \end{equation*}
+
+The electron will be accelerated opposite to the direction of the electric field till it experiences a collision with the ion. If $\tau$ is the average time taken between any two successive collisions, the accelerations act for a time $\tau$ only.
+\newpage
+The average velocity gained by the electrons between two successive collisions is called drifted velocity $(v_{d})$.
+\\
+Therefore, we have \begin{equation*}
+    a = \frac{v_{d}}{\tau} = \frac{-eE}{m}
+\end{equation*}
+Thus, the drift velocity is given by ,
+\begin{equation}
+    v_{d} = -\frac{eE\tau}{m}
+\end{equation}
+The current density is given by $J = \frac{I}{A}$, and the current in a conductor of area of cross section $A$ is given by $I = -neAv_{d}$ where $n$ is the free electron concentration.
+\begin{equation*}
+    J =\frac{I}{A} = \frac{-neAv_{d}}{A} = -nev_{d} = \frac{ne^{2}E\tau}{m}
+\end{equation*}
+Also we have, electrical conductivity
+\begin{equation}
+    \sigma = \frac{J}{E} = \frac{\frac{ne^{2}E\tau}{E}}{m} = \frac{ne^{2}\tau}{m}
+\end{equation}
+
+\section*{Important definitions}
+    \addcontentsline{toc}{section}{Important definitions}
+
+    \begin{itemize}
+        \item \textbf{Thermal velocity}: Thermal velocity is the velocity that a particle in a system would have if its kinetic energy were equal to the average energy of all the particles of the system.
+        \item \textbf{Mean free path ($\lambda$)}: The average distance travelled by the electron between any two successive collision with the lattice points is called mean free path.
+        \item \textbf{Mean collision time ($\tau$)}: The average time taken by the electron between any two  successive collision with the lattice points is called as mean collision time.
+        \item \textbf{Relaxation time ($\tau_{r}$)}: The time taken by the electrons to relax to its normal random state from the drift velocity. 
+        \item \textbf{Drift velocity ($V_{d}$)} : The average velocity attained by charged particles, such as electrons, in a material due to an electric field. 
+        
+    \end{itemize}
+\newpage
+\section*{Failures of classical free electron theory}
+    \addcontentsline{toc}{section}{Failures of classical free electron theory}
+\begin{enumerate}
+    \item According to classical free electron theory, $\rho = \frac{\sqrt{3mkT}}{ne^{2}\lambda}$, implies that $\rho \propto \sqrt{T}$. But experimentally, it is found that, $\rho \propto T$ for metals.
+    \item The specific heat of metals is found to be a constant which is equal to $\frac{3}{2}R$ whereas the experimental value is $10^{-4}RT$, which suggests that, specific heat of metals increases with increase in temperature.
+    \item According to classical free electron theory, conductivity is proportional to the free electron concentration $(n)$ but experimentally it is found that, though, $n$ is higher for divalent and trivalent metals like zinc (Zn) and \\ Aluminum (Al), they show lesser conductivity than monovalent metals like copper (Cu).
+    \item It does not give the correct value of Lorentz number.
+    \item It fails to explain the conduction mechanism in semiconductors and \\ insulators.
+\end{enumerate}
+
+\end{document}

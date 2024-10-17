@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {1}\textbf {Introduction}}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}What you'll learn?}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Ket spaces}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Inner Product Space}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Wave Function in Ket Notation}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Understanding wave function.}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Linear Operators}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Identity Operator}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Qubits! }{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Special States}{7}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Schrödinger's cat}{7}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Implications}{8}{subsubsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6}Identity operator and qubit}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Pauli matrices}{8}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Unitary and Hermitian Matrices}{8}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Unitary Matrices}{8}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Hermitian Matrices}{8}{subsubsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.9}Probability}{9}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Principles of Quantum Information \& Quantum Computing}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Moore's Law}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Difference between Classical and Quantum computing}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Quantum superposition}{12}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Properties of a qubits}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Mathematical representation}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Representation of qubit by Bloch sphere}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Quantum computation}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Quantum Gates}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Single qubit gates}{14}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Quantum Gates Basic}{16}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.2}Multi Qubit System}{18}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Multi-Qubit gates}{18}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Single vs Multi Qubits}{19}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Multiple Qubits and \textbf {CNOT} Gate}{19}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Controlled Z gate}{20}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.5}SWAP Gate}{20}{subsubsection.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.6}Toffoli gate}{21}{subsubsection.5.2.6}%
+\contentsline {section}{\numberline {6}WARNING!}{22}{section.6}%
